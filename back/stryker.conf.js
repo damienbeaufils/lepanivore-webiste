@@ -5,7 +5,7 @@ module.exports = {
   packageManager: 'npm',
   reporters: ['html', 'clear-text', 'progress', 'dashboard'],
   testRunner: 'jest',
-  coverageAnalysis: 'off',
+  coverageAnalysis: 'perTest',
   mutate: ['src/**/*.ts', '!src/**/*.spec.ts', '!src/**/*.module.ts'],
   jest: {
     configFile: './jest-mutation.config.js',
